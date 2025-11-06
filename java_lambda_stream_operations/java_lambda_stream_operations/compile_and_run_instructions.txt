@@ -1,0 +1,18 @@
+Compile & Run Instructions
+--------------------------
+Make sure JDK 8 or higher is installed (streams & lambdas require Java 8+).
+
+Part A - Sorting Employees
+  $ cd partA
+  $ javac Employee.java SortEmployees.java
+  $ java SortEmployees
+
+Part B - Filtering & Sorting Students
+  $ cd ../partB
+  $ javac Student.java FilterAndSortStudents.java
+  $ java FilterAndSortStudents
+
+Part C - Stream Operations on Product Dataset
+  $ cd ../partC
+  $ javac Product.java ProductStreamOperations.java
+  $ java ProductStreamOperations
