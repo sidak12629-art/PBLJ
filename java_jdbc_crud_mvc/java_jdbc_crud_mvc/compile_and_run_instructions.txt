@@ -1,0 +1,23 @@
+Instructions to Compile & Run (requires MySQL JDBC Driver)
+-----------------------------------------------------------
+Prerequisite:
+  - Install MySQL and create a database (e.g., `school_db` or `shop_db`).
+  - Download MySQL Connector/J (JDBC Driver) and add its .jar file to the classpath when running programs.
+
+Example Command:
+  javac -cp .;mysql-connector-j-8.0.xx.jar partA/FetchDataExample.java
+  java  -cp .;mysql-connector-j-8.0.xx.jar partA.FetchDataExample
+
+Update connection parameters inside each file before running:
+  String url = "jdbc:mysql://localhost:3306/your_database_name";
+  String user = "root";
+  String pass = "your_password";
+
+Part A - Fetch Data
+  - Demonstrates JDBC connection and SELECT query execution.
+
+Part B - Product CRUD
+  - Menu-driven program to Insert, Read, Update, and Delete product records with transactions.
+
+Part C - Student MVC Application
+  - Demonstrates Model-View-Controller pattern with StudentDAO for JDBC operations.
