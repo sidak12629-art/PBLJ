@@ -1,0 +1,26 @@
+Compile & Run Instructions (Linux / macOS / Windows with Java installed)
+-----------------------------------------------------------------------
+Make sure JDK is installed. Check with: java -version and javac -version
+
+Part A - AutoboxingSum
+  $ cd partA
+  $ javac AutoboxingSum.java
+  $ java AutoboxingSum
+  - The program will prompt for integers separated by spaces. Example input:
+    10 20 30 -5 0
+  - It prints the sum using autoboxing/unboxing and demonstrates Integer.parseInt
+
+Part B - Serialization (Student)
+  $ cd ../partB
+  $ javac Student.java StudentSerialize.java
+  $ java StudentSerialize
+  - This writes 'student.dat' (binary) and then reads it back and prints the Student object.
+
+Part C - Employee Manager (file-based CSV)
+  $ cd ../partC
+  $ javac Employee.java EmployeeManager.java
+  $ java EmployeeManager
+  - A menu appears:
+    1. Add Employee  2. Display All Employees  3. Exit
+  - Employee records are stored in 'employees.csv' in the partC folder.
+  - For Windows users: run commands in Command Prompt or PowerShell.
